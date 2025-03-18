@@ -1,0 +1,20 @@
+name: Regression
+
+on:
+  push:
+    branches:
+      - main
+  
+
+jobs:
+  cypress-run:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4.1.1
+
+      - name: Cypress.io
+        uses: cypress-io/github-action@v6.5.0
+        with:
+          command: npm run cypress:execution-tags
+          browser: chrome
