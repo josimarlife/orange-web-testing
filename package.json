@@ -1,0 +1,23 @@
+{
+  "name": "orange-web-testing",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@badeball/cypress-cucumber-preprocessor": "^22.0.1",
+    "@bahmutov/cypress-esbuild-preprocessor": "^2.2.4",
+    "@types/cypress": "^1.1.6",
+    "@types/node": "^22.13.10",
+    "cypress": "^14.2.0",
+    "typescript": "^5.8.2"
+  },
+  "cypress-cucumber-preprocessor": {
+    "stepDefinitions": "cypress/e2e/**/steps/**/*.ts"
+  }
+}
