@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "cypress:runner": "cypress open --e2e --browser chrome",
-    "cypress:execution-tags": "npx cypress run --browser chrome --headless --env tags=@Regression"
+    "cypress:execution-tags": "npx cypress run --browser chrome --headless --env tags=@Regression",
+    "cypress:dashboard":"npx cypress run --record --key b1f47c9c-32ea-4b59-b33a-ca5f8c3da972"
 
   },
   "keywords": [],
