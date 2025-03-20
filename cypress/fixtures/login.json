@@ -1,0 +1,5 @@
+{
+    "input_username":"input[name='username']",
+    "input_password":"input[type='password']",
+    "btn_login":"[type='submit']"
+}

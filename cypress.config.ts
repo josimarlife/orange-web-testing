@@ -19,10 +19,22 @@ async function setupNodeEvents(
 }
 
 export default defineConfig({
-  
   e2e: {
-    
     setupNodeEvents,
     specPattern: "cypress/e2e/**/features/**/*.feature",
+    env:{
+      staging:{
+        baseURL:"https://opensource-demo.orangehrmlive.com"
+      },
+      qa: {
+        baseURL:"ehrmlive.com"
+      },
+      dev:{
+        baseURL:"https://opensource-demo.orangehrmlive.com"
+      },
+      prod:{
+        baseURL:"https://opensource-demo.orangehrmlive.com"
+      }
+    }
   },
 });

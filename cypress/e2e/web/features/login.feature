@@ -1,12 +1,21 @@
-Feature: Google Main Page
-
-    I want to open a search engine
-
-    @Regression
-    Scenario: Opening a search engine page
-        Given I open Google page
+Feature: HRM Orange Application
 
 
-    @Focus
-    Scenario: Opening a search engine page
-        Given I open Google page
+    Scenario: Login
+        Given I open orange hrm page "qa"
+        When Enter credential succesfully
+
+
+    Scenario: Login
+        Given I open orange hrm page "dev"
+        When Enter credential succesfully
+
+
+    Scenario: Login
+        Given I open orange hrm page "staging"
+        When Enter credential succesfully
+
+
+    Scenario: Login
+        Given I open orange hrm page "prod"
+        When Enter credential succesfully
