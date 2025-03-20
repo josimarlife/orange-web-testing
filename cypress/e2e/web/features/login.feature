@@ -1,11 +1,11 @@
 Feature: HRM Orange Application
 
-
+    @Regression
     Scenario: Login
         Given I open orange hrm page "qa"
         When Enter credential succesfully
 
-
+    @Regression
     Scenario: Login
         Given I open orange hrm page "dev"
         When Enter credential succesfully
