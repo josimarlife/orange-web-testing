@@ -28,10 +28,10 @@ export default defineConfig({
         baseURL:"https://opensource-demo.orangehrmlive.com"
       },
       qa: {
-        baseURL:"ehrmlive.com"
+        baseURL:"https://opensource-demo.orangehrmlive.com"
       },
       dev:{
-        baseURL:"https://opensource-demo.orangehrmlive.com"
+        baseURL:"ehrmlive.com"
       },
       prod:{
         baseURL:"https://opensource-demo.orangehrmlive.com"

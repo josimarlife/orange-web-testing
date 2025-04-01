@@ -9,7 +9,7 @@
     "cypress:dashboard":"npx cypress run --record --key b1f47c9c-32ea-4b59-b33a-ca5f8c3da972"
 
   },
-  "keywords": [],
+  "keywords": ["cucumber","typescript"],
   "author": "",
   "license": "ISC",
   "devDependencies": {
