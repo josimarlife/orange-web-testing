@@ -19,7 +19,7 @@ async function setupNodeEvents(
 }
 
 export default defineConfig({
-  projectId: "82gho3",
+  projectId: "3kb6kp",
   e2e: {
     setupNodeEvents,
     specPattern: "cypress/e2e/**/features/**/*.feature",
