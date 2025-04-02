@@ -1,4 +1,6 @@
 {
-    "list_dash":".oxd-sidepanel-body ul li span"
-    
+    "list_dash":".oxd-sidepanel-body ul li span",
+    "input_name":"[name='firstName']",
+    "input_midname":"[name='middleName']",
+    "input_apellido":"[name='lastName']"
 }

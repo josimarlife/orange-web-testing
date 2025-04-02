@@ -7,6 +7,7 @@ Feature: HRM Orange Application
 
         
         When presiona click en el boton "My Info"
+        When ingresa datos personales principales satisfactoriamente
         #Then valida que se muestra la pantalla My info
     
 
