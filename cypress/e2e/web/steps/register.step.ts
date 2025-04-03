@@ -9,3 +9,7 @@ When("presiona click en el boton {string}", (menu:string) => {
 When("ingresa datos personales principales satisfactoriamente", () => {
     register.registraDatos();
   });
+
+  When("ingresa fecha", () => {
+    register.ingresaFecha();
+  });

@@ -2,5 +2,12 @@
     "list_dash":".oxd-sidepanel-body ul li span",
     "input_name":"[name='firstName']",
     "input_midname":"[name='middleName']",
-    "input_apellido":"[name='lastName']"
+    "input_apellido":"[name='lastName']",
+    "input_id_empleado":".oxd-input.oxd-input--active",
+    "input_otroid":".oxd-input.oxd-input--active",
+    "input_numlicencia":".oxd-input.oxd-input--active",
+    "select_año":"li.oxd-calendar-selector-year",
+    "select_year":"ul.oxd-calendar-dropdown.transition-fade-down-enter-active.transition-fade-down-enter-to li",
+    "select_mes":"li.oxd-calendar-selector-month",
+    "select_dia":""
 }
